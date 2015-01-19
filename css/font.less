@@ -1,0 +1,27 @@
+// @font-face {
+//     .font-face('HelveticaNeue','helvetica-neue-bold');
+//     font-weight: bold;
+//     font-style: normal;
+// }
+// .font-face (@family, @file-base, @weight: normal, @style: normal) {
+//     @font-face {
+//         font-family: @family;
+//         src: url("../fonts/@{file-base}/@{file-base}.eot");
+//         src: url("../fonts/@{file-base}/@{file-base}.eot?#iefix") format("embedded-opentype"),
+//         url("../fonts/@{file-base}/@{file-base}.woff") format("woff"),
+//         url("../fonts/@{file-base}/@{file-base}.ttf") format("truetype");
+//         font-weight: @weight;
+//         font-style: @style;
+//     }
+// }
+@font-face {
+    font-family: 'MyWebFont';
+    src: url('../fonts/helvetica-neue-bold/helveticaneuemedium1361522099.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/helvetica-neue-bold/helveticaneuemedium1361522099.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/helvetica-neue-bold/helveticaneuemedium1361522099.woff') format('woff'), /* Modern Browsers */
+    url('../fonts/helvetica-neue-bold/helveticaneuemedium1361522099.ttf')  format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/helvetica-neue-bold/helveticaneuemedium1361522099.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+// body {
+//     font-family: 'MyWebFont';
+// }
